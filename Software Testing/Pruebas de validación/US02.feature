@@ -12,15 +12,15 @@ Feature: Gestion de perfiles
 
     Scenario: Verificar cuenta
         Given el supervisor/operario se encuentra en la pantalla 'Verificar cuenta'
-        And complete el campo 'Correo'
+        And complete el campo 'Número telefónico'
         When presione el boton 'Aceptar'
-        Then el sistema le enviara un correo para la identificacion
+        Then el sistema le enviara un mensaje de texto
     
     Example:
-    |Verificar cuenta|Correo|Aceptar|Correo enviado por el sistema|
+    |Verificar cuenta|Número telefónico|Aceptar|Mensaje de texto enviado por el sistema|
 
-    |Correo|jkdawkings@easyware.me|
-    |Correo enviado por el sistema|"Se ha enviado este mensaje para realizar la identificacion de cuenta"|
+    |Número telefónico|936970968|
+    |Mensaje de texto enviado por el sistema|"Se ha enviado este mensaje para realizar la identificacion de cuenta"|
 
     Scenario: Reestablecer contraseña
         Given el supervisor/operario se encuentra en la pantalla 'Reestablecer contraseña'
