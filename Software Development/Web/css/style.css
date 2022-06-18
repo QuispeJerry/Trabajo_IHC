@@ -156,3 +156,26 @@ h3.Comenzar{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 4px;
 }
+
+/*-------------------Nuestras Alianzas---------------------*/
+div.Alianzas-title{
+    box-sizing: border-box;
+}
+h2.Nuestras-Alianzas{
+    padding-top: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+section.Franja-Alianzas {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#092C4C,#5CB3C1);
+    box-sizing: border-box;
+}
+div.Alianzas-Contenido{
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
