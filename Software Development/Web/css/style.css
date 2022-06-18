@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+/*-------------------Barra de Navegación----------------*/
+.header{
+    background-color: #092C4C;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header.Encabezado{
+    background: #092C4C;
+    height: 100px;
+}
+div.Nombre-Empresa{
+    display: flex;
+    margin-left: 70px;
+}
+.logo-png{
+    margin-top: 14px;
+}
+.logo{
+    position: absolute;
+    width: 183px;
+    height: 36px;
+    left: 131px;
+    top: 30px;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-decoration: none;
+}
+.Navegacion{
+    display: flex;
+    margin:0  auto;
+}
+.nav-menu{
+    display: flex;
+    margin-left: 339px;
+
+    margin-top: 38px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size:16px;
+    margin:0 20px;
+    width: max-content;
+}
+.nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-Ingreso{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 27px;
+}
+.item{
+    width: max-content;
+    margin:0 15px;
+}
+.Iniciar-Sesion{
+    margin-top: 12px;
+}
+.nav-menu-link:hover{
+    background-color: #5CB3C1;
+}
