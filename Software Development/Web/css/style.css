@@ -134,3 +134,25 @@ div.Nombre-Empresa{
 .swiper-button-left{
     left: 200px !important;
 }
+
+/*-------------------Boton Comenzar---------------------*/
+section.Boton-comenzar{
+    height:50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+h3.Comenzar{
+    width:200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: #092C4C;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 4px;
+}
