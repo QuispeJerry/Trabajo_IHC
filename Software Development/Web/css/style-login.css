@@ -156,7 +156,15 @@ input{
     font-weight: bolder;
     text-decoration: none;
 }
-@media screen and (max-width: 1050px){
+
+@media screen and (max-width: 880px){
+    .restablecer {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 780px){
     .bloque1{
         width: 0;
     }
@@ -169,5 +177,20 @@ input{
         height: 100%;
         background: #092C4C;
         opacity: 90%;
+    }
+    .restablecer {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .logo{
+        position: absolute;
+        width: 80px;
+        right: 0; top: 0;
+    }
+    .restablecer {
+        display: inline-block;
+        text-align: center;
     }
 }
