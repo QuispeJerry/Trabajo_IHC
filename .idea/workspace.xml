@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f41f6e66-4527-46cc-8695-07f1d347688d" name="Changes" comment="Creación de la función de mostrar contraseña" />
+    <list default="true" id="f41f6e66-4527-46cc-8695-07f1d347688d" name="Changes" comment="Creación de los estilos para login">
+      <change beforePath="$PROJECT_DIR$/Software Development/Web/css/style-login.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +68,7 @@
       <updated>1655667040812</updated>
       <workItem from="1655667071881" duration="1910000" />
       <workItem from="1655669062664" duration="1020000" />
-      <workItem from="1655673908711" duration="830000" />
+      <workItem from="1655673908711" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="#10">
       <created>1655667613791</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655674644063</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creación de los estilos para login">
+      <created>1655674757473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655674757473</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +157,7 @@
     <MESSAGE value="Agregar ícono" />
     <MESSAGE value="Creación de Login" />
     <MESSAGE value="Creación de la función de mostrar contraseña" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de la función de mostrar contraseña" />
+    <MESSAGE value="Creación de los estilos para login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de los estilos para login" />
   </component>
 </project>
