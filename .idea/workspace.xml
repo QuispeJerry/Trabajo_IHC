@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f41f6e66-4527-46cc-8695-07f1d347688d" name="Changes" comment="Agregar ícono">
-      <change beforePath="$PROJECT_DIR$/Software Development/Web/EasyWare v1/img/logoI.png" beforeDir="false" />
-    </list>
+    <list default="true" id="f41f6e66-4527-46cc-8695-07f1d347688d" name="Changes" comment="Creación de la función de mostrar contraseña" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +21,15 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="QuispeJerry &lt;u20201c043@upc.edu.pe&gt;" />
         <option value="DarlinHuaman &lt;u20201b297@upc.edu.pe&gt;" />
       </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Z:/UPC/CICLO IV/IHC y Tecnologías Móviles/Trabajo",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/UPC/CICLO IV/IHC y Tecnologías Móviles/Trabajo&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,6 +66,7 @@
       <updated>1655667040812</updated>
       <workItem from="1655667071881" duration="1910000" />
       <workItem from="1655669062664" duration="1020000" />
+      <workItem from="1655673908711" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="#10">
       <created>1655667613791</created>
@@ -97,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655669903290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creación de Login">
+      <created>1655674027132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655674027132</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creación de la función de mostrar contraseña">
+      <created>1655674400285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655674400285</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +139,8 @@
     <MESSAGE value="Iniciar sesión" />
     <MESSAGE value="Agregar icono" />
     <MESSAGE value="Agregar ícono" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar ícono" />
+    <MESSAGE value="Creación de Login" />
+    <MESSAGE value="Creación de la función de mostrar contraseña" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de la función de mostrar contraseña" />
   </component>
 </project>
