@@ -75,6 +75,171 @@ div.Nombre-Empresa{
 .nav-menu-link:hover{
     background-color: #5CB3C1;
 }
+/*-------------------Wallpaper---------------------------*/
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #092c4c;
+    --primario: #5cB3c1;
+}
+html{
+    background-color: #FFFFFF;
+}
+.contenedor_portada{
+    background-image:linear-gradient(to left, var(--primario), var(--oscuro)) ;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.imagen_persona{
+    height: 100%;
+    width: 100%;
+}
+.titulo{
+    font-size: 56px;
+    padding: 2.5rem;
+    color: var(--blanco);
+    width: 100%;
+    font-family: sans-serif;
+}
+.titulo_e{
+    color: var(--primario)
+}
+.parrafo{
+    color:var(--blanco);
+    width: 70%;
+    text-align: justify;
+    padding: 0rem 0rem 3rem 2.5rem;
+    margin: 1rem 0rem 1rem 0rem;/*arriba izquierda abajo der*/
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.tiendas{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0rem 0rem 0rem 4rem;
+}
+.imagen_app, .imagen_play{
+    width: 60%;
+    border-radius: 15px;
+}
+.imagen_app{
+    margin: 0rem 0rem 0rem 4rem;
+}
+.porque{
+    font-size: 32px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+/*===============================================================*/
+.contenedor{
+    width: 90%;
+    margin: 80px;
+}
+/*=============*/
+.contenedor_porque{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.imagen_1{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+}
+.texto{
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+}
+.sub_titulo{
+    font-size: 24px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px;
+}
+.parrafos{
+    font-size: 20px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 2rem 0rem;
+}
+/*****/
+.imagen_2{
+    height: 100%;
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+}
+.texto1{
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0rem 2rem 0rem;
+    margin-top: 6rem;
+}
+.izquierda{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin-top: 1rem;
+}
+.izquierda div{
+    margin: 8px 0px 0px 0px;
+
+}
+.izquierda img{
+    margin: 0px 0px 0px 0px;
+}
+
+.derecha{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    margin-top: 1rem;
+}
+.derecha div{
+    margin: 8px 0px 0px 20px;
+}
+.derecha img{
+    margin: 0px 60px 0px 0px;
+}
+.parrafos_2{
+    margin-top: 4rem;
+    width: 90%;
+}
+.texto2{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+}
+.imagen_3{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+    margin-top: 4rem;
+}
+.texto3{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+    margin-top: 16rem;
+}
+.imagen_4{
+    height: 90%;
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+    margin-top: 6rem;
+}
+.texto4{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+    margin-top: 26rem;
+}
 
 /*-------------------Casos de Exito---------------------*/
 
@@ -135,6 +300,9 @@ div.Nombre-Empresa{
     left: 200px !important;
 }
 
+
+
+
 /*-------------------Boton Comenzar---------------------*/
 section.Boton-comenzar{
     height:50px;
@@ -153,12 +321,12 @@ h3.Comenzar{
     border-radius: 20px;
     color: #FFFFFF;
     background: #092C4C;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 4px;
 }
 
 /*-------------------Nuestras Alianzas---------------------*/
-div.Alianzas-title{
+div. Alianzas-title{
     box-sizing: border-box;
 }
 h2.Nuestras-Alianzas{
@@ -179,3 +347,5 @@ div.Alianzas-Contenido{
     display: flex;
     justify-content: space-between;
 }
+/*--------------------------------------------------*/
+

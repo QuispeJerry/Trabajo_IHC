@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Easyware">
@@ -8,8 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easyware</title>
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_login.css">
+    <link rel="stylesheet" href="css/Plan_pago.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/89fe99e896.js" crossorigin="anonymous"></script>
     <script defer src="js/js.js"></script>
 </head>
 <body>
@@ -28,7 +31,7 @@
             </ul>
 
             <div class="nav-Ingreso">
-                <a href="#" class="nav-menu-link nav-link item Iniciar-Sesion">Iniciar Sesión</a>
+                <a href="login.html" class="nav-menu-link nav-link item Iniciar-Sesion">Iniciar Sesión</a>
                 <div class = "Boton-encabezado item">
                     <h3 class="Comenzar">Comenzar</h3>
                 </div>
@@ -36,89 +39,212 @@
         </nav>
     </header>
 
-    <!-----------------------------CASOS DE EXITO-------------------------->
-
     <main>
-    <section class="contenedor Casos-de-Exito">
-        <h2 class="title">Casos de éxito</h2>
 
-        <div class="container">
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-container mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/Caso_exito_1.png" alt="">
-                        <div class="card-description">
-                            <div class="card-title">
-                                <h4>agripa Solution</h4>
-                            </div>
-                            <div class="card-text">
-                                <p>
-                                    Al usar <strong>EASYWARE</strong> para la recepción en la logística de <br>
-                                    los contenedores, el área de calidad informó que se ahorró 30 minutos por contenedor que descarga, en <br>
-                                    comparación con su método anterior. La solución <strong>EASYWARE</strong> es realmente buena. Cada <br>
-                                    teléfono inteligente es realmente como su propia terminal de almacén. Estamos <br>
-                                    entrando en una liga completamente diferente. <br>
-                                </p>
-                            </div>
-                            <div class="card-autor">
-                                <h4>Andre Pedersen, gerente de ventas y socios, Agrippa</h4>
-                            </div>
+        <div class="contenedor_portada">
+            <div class="texto">
+                <div class="portada">
+                    <div class="titulo">Capacidades <span class="titulo_e">extraordinarias</span><br> para su negocio</div>
+                </div>
+                <p class="parrafo">
+                    EasyWare en dispositivos móviles proporciona automatización de<br>
+                    procesos de registro gracias a la captura de datos de códigos<br> de barras de tus productos.
+                </p>
+                <div class="tiendas" >
+                    <img src="img/app_store.png" class="imagen_app">
+                    <img src="img/play_store.png" class="imagen_play">
+                </div>
+            </div>
+            <div>
+                <img src="img/persona.png" class="imagen_persona">
+            </div>
+
+        </div>
+        <div class="porque">
+            Por qué EasyWare
+        </div>
+        <div class="contenedor">
+
+            <div class="contenedor_porque">
+
+                <div class="img">
+                    <img src="img/imagen1.png" class="imagen_1">
+                </div>
+                <div class="texto">
+                    <div class="sub_titulo">
+                        ESCANEO DE NIVEL EMPRESARIAL EN DISPOSITIVOS MÓVILES
+                    </div>
+                    <p class="parrafos">
+                        Reformule los procesos operativos de entrada de materiales, la gestión de inventario, el seguimiento de activos.
+                    </p>
+                    <p class="parrafos">
+                        Nuestro software de escáner de código de barras de alto rendimiento convierte los dispositivos inteligentes comunes en potentes escáneres de código de barras móviles que acceden a información operativa en tiempo real y la muestran.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="contenedor_porque">
+                <div class="texto1">
+                    <div class="sub_titulo izquierda">
+                        <img src="img/arriba.png">
+                        <div>
+                            AUMENTE LA EFICIENCIA
                         </div>
+                    </div>
+                    <div class="sub_titulo derecha">
+                        <div>
+                            DISMINUYA LOS ERRORES HUMANOS
+                        </div>
+                        <img src="img/abajo.png">
 
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/Alaska.png"
-                             alt="">
-                        <div class="card-description">
-                            <div class="card-title">
-                                <h4>Alaska</h4>
-                            </div>
-                            <div class="card-text">
-                                <p>
-                                    Con el escaneo de alta calidad de Scandit los trabajadores se <br>
-                                    sienten empoderados con una intuitiva app de smartphone para trabajar<br>
-                                    de forma segura, rápida y precisa.<br>
-                                </p>
-                            </div>
-                            <div class="card-autor">
-                                <h4>Chace Burnette, ingeniero principal de Shipt</h4>
-                            </div>
+                    <p class="parrafos parrafos_2">
+                        Información precisa y en tiempo real con una potente aplicación de lectura de códigos de barras en un dispositivo inteligente.
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="img/imagen2.png" class="imagen_2">
+                </div>
+            </div>
+
+            <div class="contenedor_porque">
+                <div class="img">
+                    <img src="img/imagen3.png" class="imagen_3">
+                </div>
+                <div class="texto2">
+                    <div class="sub_titulo">
+                        Rastree su producto en tiempo real desde cualquier lugar
+                    </div>
+                    <p class="parrafos">
+                        EasyWare le permitirá monitorear tus operaciones logísticas en tiempo real.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="contenedor_porque">
+                <div class="texto3">
+                    <div class="sub_titulo">
+                        <div>
+                            Rastree su producto en tiempo real desde cualquier lugar
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/Caso_exito_1.png"
-                             alt="">
-                        <div class="card-description">
-                            <div class="card-title">
-                                <h4>Descripciﾃｳn</h4>
-                            </div>
-                            <div class="card-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum non,
-                                    modi
-                                    sunt ips.</p>
+                    <p class="parrafos parrafos_2">
+                        EasyWare le permitirá afiliar hasta 15 usuarios con el <strong>PLAN BÁSICO</strong> para que formen parte de su equipo.
+                    </p>
+                    <p class="parrafos parrafos_2">
+                        Incrementa el número de usuario con el <strong>PREMIUM.</strong>
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="img/imagen4.png" class="imagen_4">
+                </div>
+            </div>
+
+            <div class="contenedor_porque">
+                <div class="img">
+                    <img src="img/imagen6.png" class="imagen_3">
+                </div>
+                <div class="texto4">
+                    <div class="sub_titulo">
+                        EASYWARE GENERA REPORTES
+                    </div>
+                    <div class="sub_titulo">
+                        AUTOMATIZADOS
+                    </div>
+                    <p class="parrafos">
+                    <div class="tiendas" >
+                        <img src="img/app_store.png" class="imagen_app">
+                        <img src="img/play_store.png" class="imagen_play">
+                    </div>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <section class="contenedor Casos-de-Exito">
+            <h2 class="title">Casos de éxito</h2>
+
+            <div class="container">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/Caso_exito_1.png" alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>agripa Solution</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>
+                                        Al usar <strong>EASYWARE</strong> para la recepción en la logística de <br>
+                                        los contenedores, el área de calidad informó que se ahorró 30 minutos por contenedor que descarga, en <br>
+                                        comparación con su método anterior. La solución <strong>EASYWARE</strong> es realmente buena. Cada <br>
+                                        teléfono inteligente es realmente como su propia terminal de almacén. Estamos <br>
+                                        entrando en una liga completamente diferente. <br>
+                                    </p>
+                                </div>
+                                <div class="card-autor">
+                                    <h4>Andre Pedersen, gerente de ventas y socios, Agrippa</h4>
+                                </div>
                             </div>
 
                         </div>
+                        <div class="swiper-slide">
+                            <img src="img/Alaska.png"
+                                 alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Alaska</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>
+                                        Con el escaneo de alta calidad de Scandit los trabajadores se <br>
+                                        sienten empoderados con una intuitiva app de smartphone para trabajar<br>
+                                        de forma segura, rápida y precisa.<br>
+                                    </p>
+                                </div>
+                                <div class="card-autor">
+                                    <h4>Chace Burnette, ingeniero principal de Shipt</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/Caso_exito_1.png"
+                                 alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Descripciﾃｳn</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum non,
+                                        modi
+                                        sunt ips.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
 
             </div>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <script src="js/slide_v2.js"></script>
 
+        </section>
 
-        </div>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="js/js.js"></script>
-    </section>
         <section class="Boton-comenzar">
             <div>
                 <h3 class="Comenzar">Comenzar</h3>
             </div>
         </section>
 
-        <!---------------------------------------Franja nuestras Alianzas------------------------------->
         <section class="Franja-Alianzas">
             <div class="Alianzas-title">
                 <h2 class="Nuestras-Alianzas">
@@ -142,7 +268,5 @@
         </section>
 
     </main>
-
-
 </body>
 </html>
