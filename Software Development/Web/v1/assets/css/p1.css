@@ -46,3 +46,489 @@ h3.Comenzar{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 4px;
 }
+
+/*-------------------Nuestras Alianzas---------------------*/
+div.Alianzas-title{
+    box-sizing: border-box;
+}
+h2.Nuestras-Alianzas{
+    padding-top: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+section.Franja-Alianzas {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#092C4C,#5CB3C1);
+    box-sizing: border-box;
+}
+div.Alianzas-Contenido{
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Porque EasyWare */
+:root {
+    --blanco: #ffffff;
+    --oscuro: #092c4c;
+    --primario: #5cB3c1;
+}
+html{
+    background-color: #FFFFFF;
+}
+
+.contenedor_portada{
+    background-image:linear-gradient(to left, var(--primario), var(--oscuro)) ;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    color: var(--blanco);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.titulo_e{
+    color: var(--primario)
+}
+.parrafo{
+    color:var(--blanco);
+    width: 70%;
+    text-align: justify;
+    padding: 0rem 0rem 3rem 2.5rem;
+    margin: 1rem 0rem 1rem 0rem;/*arriba izquierda abajo der*/
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+/* Padding crea espacio extra dentro de un elemento. En contraste, margin crea espacio extra alrededor de un elemento. */
+
+
+
+.tiendas{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0rem 0rem 0rem 4rem;
+}
+.imagen_app, .imagen_play{
+    width: 60%;
+    border-radius: 15px;
+}
+.imagen_app{
+    margin: 0rem 0rem 0rem 4rem;
+}
+
+.imagen_persona{
+    height: 100%;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+
+@media (min-width: 300px) {
+    .contenedor_portada{
+        background-image:linear-gradient(to left, var(--primario), var(--oscuro)) ;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .titulo{
+        text-align: center;
+        font-size: 30px;
+        /* padding: 0.2rem;
+        width: 150%; */
+    }
+    
+    .imagen_persona{
+        height: 100%;
+        width: 100%;
+        margin-top: -5rem;
+    }
+    /* .titulo{
+        font-size: 56px;
+        padding: 2.5rem;
+        color: var(--blanco);
+        width: 100%;
+        font-family: sans-serif;
+    } */
+
+    .parrafo{
+        text-align: justify;
+        /* padding: 0rem 0rem 1.5rem 1.3rem; */
+        /*arriba izquierda abajo der*/
+        /* margin: 0.5rem 0rem 0.5rem 0rem; */
+        /* width: 90%; */
+        width: 90%;
+        height: 100%;
+        /* margin: 0rem 0rem 0rem 0rem; */
+        font-size: 20px;
+        /*estás aqui... justificar el parrafo*/
+
+    /* padding: 0rem 0rem 0rem 0rem; */
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+    /*arriba izquierda abajo der*/
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    }
+    .tiendas{
+        width: 100%;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+        /* justify-content: center; */
+        margin: 0rem 0rem 0rem 0rem;
+        
+    }
+    .imagen_app, .imagen_play{
+        width: 60%;
+        border-radius: 15px;
+        justify-content: center;
+        margin: 1rem 0rem 0rem 0rem;
+        /* padding: 0rem 3rem 0rem 0rem; */
+        
+    }
+    .imagen_app{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    /* .imagen_1, .imagen_2, .imagen_3,.imagen_4{
+        width: 10%;
+    } */
+}
+
+@media (min-width: 500px) {
+ .titulo{
+    font-size: 3rem;
+ }
+ .parrafo{
+    font-size: 1.5rem;
+    text-align: justify;
+ }
+}
+
+
+@media (min-width: 890px) {
+    
+    .contenedor_portada{
+            display: grid;
+            grid-template-columns: 60% 40%;
+            width: 100%;
+            height: 27rem;
+        }
+    .titulo{
+        font-size: 4.5rem;
+        padding: 0rem;
+        width: 200%;
+        text-align: left;
+    }
+    .imagen_persona{
+        height: 100%;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .parrafo{
+        width: 90%;
+        text-align: justify;
+        margin: 0rem 0rem 0rem 2rem;
+        font-size: 1.5rem;
+    }
+
+
+
+    .tiendas{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .imagen_app, .imagen_play{
+        border-radius: 15px;
+        justify-content: center;
+        margin: 0rem 0rem 0rem 0rem;
+        width: 70%;
+        margin-top: -14rem;
+    }
+
+}
+ 
+@media (min-width: 900px) {
+    .contenedor_portada{
+        height: 40rem;
+    }
+    .titulo{
+        font-size: 4rem;
+        width: 200%;
+    }
+    .parrafo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 4rem;
+    }
+    .imagen_app, .imagen_play{
+       margin-top: -22rem;
+       /* margin-left: 5rem;        */
+       margin-left: 4rem;
+             
+    }
+}
+
+
+/*===================================================================*/
+.porque{
+    font-size: 32px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+/*===============================================================*/
+
+
+.contenedor{
+    width: 100%;
+}
+/*=============*/
+
+
+
+
+
+
+
+
+.imagen_1{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+}
+.texto{
+    width: 100%;
+}
+.sub_titulo{
+    font-size: 24px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px;
+}
+.parrafos{
+    font-size: 20px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+/*****/
+.imagen_2{
+    height: 100%;
+    width: 100%;
+}
+.texto1{
+    height: 100%;
+    width: 100%;
+}
+.imagen_3{
+    height: 100%;
+    width: 100%;
+}
+
+.texto3{
+    width: 100%;
+}
+.imagen_4{
+    height: 90%;
+    width: 90%;
+}
+.texto4{
+    width: 90%;
+}
+
+/* .texto, .texto1,.texto2, .texto3, .texto4{
+    text-align: center;
+} */
+
+.sub_titulo{
+    font-size: 1.2rem;
+}
+.parrafos{
+    font-size: 1rem;
+}
+
+.flechas1{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.flechas2{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.f2{
+    margin-left: -5rem;
+}
+/* @media (min-width: 300px) {
+ 
+} */
+.f3{
+    width: 0%;
+}
+
+@media (min-width: 400px) {
+    .f3{
+        width: 100%;
+    }
+    .flechas1{
+        display: grid;
+        grid-template-columns: 10% 90%;
+    }
+    .flechas2{
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+    .f2{
+        margin-left: -5rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px) {
+    
+    .contenedor{
+        width: 100%;
+        margin: 80px;
+    }
+.contenedor_porque{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* width: 100%;
+    height: 100%; */
+}
+.imagen_persona{
+    margin-top: -1rem;
+}
+.imagen_1{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+}
+.texto{
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+}
+.sub_titulo{
+    font-size: 24px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px;
+}
+.parrafos{
+    font-size: 20px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin: 2rem 0rem;
+}
+/*****/
+.imagen_2{
+    height: 100%;
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+}
+.texto1{
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0rem 2rem 0rem;
+    margin-top: 6rem;
+}
+.izquierda{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin-top: 1rem;
+}
+.izquierda div{
+    margin: 8px 0px 0px 0px;
+
+}
+.izquierda img{
+    margin: 0px 0px 0px 0px;
+}
+
+.derecha{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    margin-top: 1rem;
+}
+.derecha div{
+    margin: 8px 0px 0px 20px;
+}
+.derecha img{
+    margin: 0px 60px 0px 0px;
+}
+.parrafos_2{
+    margin-top: 4rem;
+    width: 90%;
+}
+.texto2{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+}
+.imagen_3{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+    margin-top: 4rem;
+}
+.texto3{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+    margin-top: 16rem;
+}
+.imagen_4{
+    height: 90%;
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+    margin-top: 6rem;
+}
+.texto4{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+    margin-top: 26rem;
+}
+
+.tiendas{
+    margin-top: 0rem;
+    margin-left: 2rem;
+}
+
+   }
