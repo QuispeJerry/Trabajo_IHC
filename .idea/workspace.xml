@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f41f6e66-4527-46cc-8695-07f1d347688d" name="Changes" comment="Actualizacion de los estilos para login" />
+    <list default="true" id="f41f6e66-4527-46cc-8695-07f1d347688d" name="Changes" comment="Actualizacion de los estilos-login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Z:/UPC/CICLO IV/IHC y Tecnologías Móviles/Trabajo/TB4/Trabajo_IHC",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/UPC/CICLO IV/IHC y Tecnologías Móviles/Trabajo/TB4/Trabajo_IHC&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +68,7 @@
       <workItem from="1655669062664" duration="1020000" />
       <workItem from="1655673908711" duration="1504000" />
       <workItem from="1656561768346" duration="1050000" />
+      <workItem from="1656562865757" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="#10">
       <created>1655667613791</created>
@@ -223,7 +224,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656562831922</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Actualizacion de los estilos para login">
+      <created>1656563100947</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656563100947</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Actualizacion de los estilos de login">
+      <created>1656563152635</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1656563152635</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Actualizacion de los estilos-login">
+      <created>1656563193122</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656563193122</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +275,8 @@
     <MESSAGE value="Se actualizó Login" />
     <MESSAGE value="Actualización de los estilos para login" />
     <MESSAGE value="Actualizacion de los estilos para login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de los estilos para login" />
+    <MESSAGE value="Actualizacion de los estilos de login" />
+    <MESSAGE value="Actualizacion de los estilos-login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de los estilos-login" />
   </component>
 </project>
