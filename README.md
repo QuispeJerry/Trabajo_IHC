@@ -2,4 +2,4 @@
 
 Despliege de la página en GitHub pages:
 
-https://taniasadith.github.io/EasyWare/index.html
+https://quispejerry.github.io/index.html
