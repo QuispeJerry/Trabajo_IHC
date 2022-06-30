@@ -73,7 +73,7 @@ div{
 }
 .logo{
     position: absolute;
-    width: 100px; /*100px*/
+    width: 100px;
     right: 0; top: 0;
 }
 .encabezados{
@@ -86,10 +86,6 @@ h5{
     font-size: 24px;
     margin: 0 0 14px 0;
 }
-/*h3{*/
-/*    font-size: 32px;*/
-/*    margin: 0 0 0 0;*/
-/*}*/
 
 .titulo{
     font-family: 'Arial';
@@ -137,7 +133,6 @@ input{
     border: none;
     font-size: 20px;
     color: #ffffff;
-    /*margin-bottom: 25%;*/
     cursor: pointer;
     margin-bottom: 120px;
 }
@@ -145,7 +140,7 @@ input{
     font-size: 20px;
     line-height: 24px;
     /*display: inline-block;*/
-    /*text-align: center;*/
+
 }
 .login-box span {
     color: #000;
