@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+/*-------------------Barra de Navegación----------------*/
+.header{
+    background-color: #092C4C;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header.Encabezado{
+    background: #092C4C;
+    height: 100px;
+}
+div.Nombre-Empresa{
+    display: flex;
+    margin-left: 70px;
+}
+.logo-png{
+    margin-top: 14px;
+}
+.logo{
+    position: absolute;
+    width: 183px;
+    height: 36px;
+    left: 131px;
+    top: 30px;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-decoration: none;
+}
+.Navegacion{
+    display: flex;
+    margin:0  auto;
+}
+.nav-menu{
+    display: flex;
+    margin-left: 339px;
+
+    margin-top: 38px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size:16px;
+    margin:0 20px;
+    width: max-content;
+}
+.nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-Ingreso{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 27px;
+}
+.item{
+    width: max-content;
+    margin:0 15px;
+}
+.Iniciar-Sesion{
+    margin-top: 12px;
+}
+.nav-menu-link:hover{
+    background-color: #5CB3C1;
+}
+/*-------------------Wallpaper---------------------------*/
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #092c4c;
+    --primario: #5cB3c1;
+}
+html{
+    background-color: #FFFFFF;
+}
+.contenedor_portada{
+    background-image:linear-gradient(to left, var(--primario), var(--oscuro)) ;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.imagen_persona{
+    height: 100%;
+    width: 100%;
+}
+.titulo{
+    font-size: 56px;
+    padding: 2.5rem;
+    color: var(--blanco);
+    width: 100%;
+    font-family: sans-serif;
+}
+.titulo_e{
+    color: var(--primario)
+}
+.parrafo{
+    color:var(--blanco);
+    width: 70%;
+    text-align: justify;
+    padding: 0rem 0rem 3rem 2.5rem;
+    margin: 1rem 0rem 1rem 0rem;/*arriba izquierda abajo der*/
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.tiendas{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0rem 0rem 0rem 4rem;
+}
+.imagen_app, .imagen_play{
+    width: 60%;
+    border-radius: 15px;
+}
+.imagen_app{
+    margin: 0rem 0rem 0rem 4rem;
+}
+.porque{
+    font-size: 32px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+/*===============================================================*/
+.contenedor{
+    width: 90%;
+    margin: 80px;
+}
+/*=============*/
+.contenedor_porque{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.imagen_1{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+}
+.texto{
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+}
+.sub_titulo{
+    font-size: 24px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px;
+}
+.parrafos{
+    font-size: 20px;
+    color: var(--oscuro);
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 2rem 0rem;
+}
+/*****/
+.imagen_2{
+    height: 100%;
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+}
+.texto1{
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0rem 2rem 0rem;
+    margin-top: 6rem;
+}
+.izquierda{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin-top: 1rem;
+}
+.izquierda div{
+    margin: 8px 0px 0px 0px;
+
+}
+.izquierda img{
+    margin: 0px 0px 0px 0px;
+}
+
+.derecha{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    margin-top: 1rem;
+}
+.derecha div{
+    margin: 8px 0px 0px 20px;
+}
+.derecha img{
+    margin: 0px 60px 0px 0px;
+}
+.parrafos_2{
+    margin-top: 4rem;
+    width: 90%;
+}
+.texto2{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+}
+.imagen_3{
+    height: 100%;
+    width: 100%;
+    /* margin: 2rem 0rem 2rem 0rem; */
+    margin-top: 4rem;
+}
+.texto3{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+    margin-top: 16rem;
+}
+.imagen_4{
+    height: 90%;
+    width: 90%;
+    margin: 2rem 0rem 2rem 2rem;
+    margin-top: 6rem;
+}
+.texto4{
+    width: 90%;
+    margin: 10rem 0rem 2rem 2rem;
+    margin-top: 26rem;
+}
+
+/*-------------------Casos de Exito---------------------*/
+
+.container{
+    width:100%;
+    padding: 10px 40px;
+    color: #092C4C;
+}
+
+.container .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.container .swiper-slide {
+    position: relative;
+    text-align: start;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(196,196,196,0.25);
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 597px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .card-description{
+    padding: 1rem;
+}
+
+.container .card-description .card-title,
+.container .card-description .card-text,
+.container .card-description .card-autor{
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 15px ;
+    line-height: 28px;
+    font-weight: inherit;
+}
+
+.title{
+    text-align: center;
+    color: #092C4C;
+}
+
+.swiper-button-next{
+    right: 70px !important;
+}
+
+.swiper-button-left{
+    left: 200px !important;
+}
+
+
+
+
+/*-------------------Boton Comenzar---------------------*/
+section.Boton-comenzar{
+    height:50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+h3.Comenzar{
+    width:200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: #092C4C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 4px;
+}
+
+/*-------------------Nuestras Alianzas---------------------*/
+div.Alianzas-title{
+    box-sizing: border-box;
+}
+h2.Nuestras-Alianzas{
+    padding-top: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+section.Franja-Alianzas {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#092C4C,#5CB3C1);
+    box-sizing: border-box;
+}
+div.Alianzas-Contenido{
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+

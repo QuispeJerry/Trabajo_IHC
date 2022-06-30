@@ -1,0 +1,307 @@
+body{
+    background: white;
+    font-family: 'Inter',Arial, Helvetica;
+    color: #092C4C;
+}
+
+#contenido{
+
+    margin:0px 0px 900px;
+}
+
+.Cuadros{
+    box-sizing: border-box;
+    position: absolute;
+    width: 524px;
+    height: 823px;
+
+    margin: auto;
+    margin-top: 47px;
+
+    background: #E1E8EC;
+    border: 1px solid #E1E8EC; /*borde donde empieza a escribir dentro de la figura*/
+
+    border-radius: 29px;/*redondear sus bordes*/
+}
+
+.CuadroPlanB{
+    /* position: absolute;*/
+
+    margin-left: 20%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 63px 80px rgba(0, 0, 0, 0.0168519), 0px 40.8333px 46.8519px rgba(0, 0, 0, 0.0274815), 0px 24.2667px 25.4815px rgba(0, 0, 0, 0.035), 0px 12.6px 13px rgba(0, 0, 0, 0.0425185), 0px 5.13333px 6.51852px rgba(0, 0, 0, 0.0531481), 0px 1.16667px 3.14815px rgba(0, 0, 0, 0.07);
+    border-radius: 29px;
+}
+
+
+.CuadroPlanP{
+    /*position: absolute;
+    margin-top:-55%; */ 
+
+    float: right;
+    margin-left:53%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);/*sobras del cuadro*/
+}
+
+.clearfix{
+    clear:both;
+}
+#Franja{
+   /* position: absolute;*/
+    width: 100%;
+    height: 327px;
+
+    /*ubicaion de la figura */
+    left: 0%;
+    top: 6900px;
+
+    background: #E1E8EC;
+}
+#t1{ /*TItilo -- Encuentra tu plan*/
+    text-align: center;
+    font-weight: bold;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+}
+#Tf1{/*Consigue la app easy ware*/
+    font-weight: 700;
+    font-size: 32px;
+    font-weight: bold;
+
+    text-align: center;
+    margin: auto;
+    margin-top: 42px;
+    margin-left: center;
+}
+#Tf2{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    margin: auto;
+    margin-top: 26px;
+    margin-left: center;
+
+}
+#Tplan{
+    font-size: 32px;
+
+    margin: auto;
+    margin-left:40px;
+    margin-top: 49.22px;
+
+}
+#Pplan{
+    font-size: 36px;
+    margin: auto;
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+/*Listado*/
+.L{
+    width: 371px;
+
+    margin: auto;
+    margin-left:101px;
+
+    font-weight: 400;
+    font-size: 20px;
+}
+.L1{
+    height: 60px;
+    margin-top: 36.78px;
+}
+.L2{
+    height: 56px;
+    margin-top: 26px;
+}
+.L3{
+    height: 56px;
+    margin-top: 44px;
+}
+.L4{
+    height: 28px;
+    margin-top: 37px;
+}
+.L5{
+    height: 56px;
+    margin-top: 48px;
+}
+
+#a1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 65px;
+
+    background: #092C4C;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+
+    margin: auto;
+    margin-left:118px;
+    margin-top: 77.22px;
+
+    text-decoration: none; /* quita subarayado a el link*/
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    /*Centra los elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Imagenes  negras */
+.Img{
+    display: flex;
+
+    width : 222px ;
+    height:66px;
+    margin: auto;
+}
+.imgAple{
+    margin-left: 31.2% ;
+    margin-top:30px ;
+}
+.imgPlayStore{
+    margin-left: 49.3% ;
+    margin-top: -66px ;
+}
+
+/*Imagenes  negras */
+
+
+
+.vector{
+    display: block;
+    width: 28px;
+    height: 21px;
+
+    margin: auto;
+    margin-left: 46px;
+
+}
+.vector .vector1{
+    margin-top: 65px;
+}
+.vector .vector2{
+    margin-top: 65px;
+}
+.vector .vector3{
+    margin-top: 65px;
+}
+.vector .vector4{
+    margin-top: 65px;
+}
+.vector .vector5{
+    margin-top: 65px;
+}
+
+
+
+
+/*ANIMACION DE LOS SWTCHERS*/
+.swicth{
+    position: relative;
+    width: 501px;
+    height: 85px;
+    border-radius: 25px;
+
+    align-items: center;
+    justify-content: center;
+
+
+    margin: auto;
+    margin-top: 47px;
+    margin-left: 32%;
+
+    display: flex;
+
+
+}
+
+.swicth input{
+    appearance: none;
+    width: 501px;
+    height: 85px;
+    border-radius: 25px;
+    background: #1e1e1e;
+    outline: none;
+}
+
+.swicth input::before,
+.swicth input::after{
+    z-index: 2;
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    font-weight: bolder;
+}
+
+.swicth input::before{
+    content: "Precio mensual";
+    left: 20px;
+    font-size: 20px;
+}
+.swicth input::after{
+    content: "Precio anual";
+    right: 20px;
+    font-size: 20px;
+
+}
+/*Cuando da click cambia el color*/
+.swicth input:checked{
+    background:#5CB3C1;
+}
+.swicth label{ /*ancho del seleccionado*/
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    border-radius: 20px;
+}
+
+.swicth input{
+    transition: 0.25s;
+}
+
+.swicth input:checked::after,
+.swicth input:checked::before{/*cambio de color cuando cliquea*/
+    color: white;
+    transition: color 0.5s;
+}
+/*transicion de color de la parte de izquierd*/
+.swicth input:checked+label{
+    left: 10px;
+    right: 239px;
+    background:#092C4C ;
+    transition: left 0.5s, right 0.4s 0.2s;
+}
+
+/*color con que empiza de fondo*/
+.swicth input:not(:checked){
+    background:#092C4C ;
+    transition: background 0.4s;
+}
+.swicth input:not(:checked)::before{
+    color: gray;
+    transition: color 0.5s;
+}
+
+.swicth input:not(:checked)::after{
+    color:white;
+    transition: color 0.5s 0.2s;
+}
+.swicth input:not(:checked)+label{
+    left: 239px;
+    right: 10px;
+    background: #5CB3C1;
+    transition: left 0.4s 0.2 , right 0.5s , background 0.35s;
+}
